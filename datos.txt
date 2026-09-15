@@ -1,1 +1,1 @@
-﻿Texto inicial de la practica de Git.
+Este archivo fue modificado desde GitHub.
