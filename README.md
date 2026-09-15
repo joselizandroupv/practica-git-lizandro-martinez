@@ -2,22 +2,22 @@
 
 **Nombre del estudiante:** Lizandro Martínez  
 **Matrícula:** 2630116  
-**Nombre de la práctica:** Control de versiones local y remoto con Git y GitHub  
+**Nombre de la práctica:** Control de Versiones Local y Remoto con Git y GitHub  
 
 ---
 
 ## 1. Objetivo de la Práctica
-Comprender y dominar el ciclo de vida del control de versiones creando un repositorio local en Git, sincronizándolo con un repositorio remoto en GitHub y verificando el flujo de trabajo en ambos sentidos (Local a GitHub y GitHub a Local).
+El objetivo es poder comprender y dominar el ciclo de vida del control de versiones creando un repositorio local en Git, luego sincronizandolo con un repositorio remoto en GitHub y por ultimo verificando el flujo de trabajo en ambos sentidos (Local a GitHub y GitHub a Local).
 
 ---
 
 ## 2. Descripción del Procedimiento Realizado
 
-1. **Creación e Inicialización Local:** Se creó la carpeta de trabajo practica-git-lizandro-martinez en la terminal de PowerShell, se inicializó el repositorio con git init y se estableció la rama main.
-2. **Registro de Cambios:** Se creó el archivo datos.txt, se agregó al área de preparación con git add . y se guardó en el historial mediante el comando git commit.
-3. **Vinculación Remota:** Se creó un repositorio público y vacío en GitHub y se vinculó con el entorno local usando git remote add origin.
-4. **Prueba GitHub a Local:** Se editó el archivo datos.txt directamente en la web de GitHub y se descargó el cambio a la computadora usando git pull.
-5. **Prueba Local a GitHub:** Se añadió una nueva línea en datos.txt desde la terminal y se subió la actualización a GitHub mediante git push.
+1. **Creacion e Inicializacion Local:** Se creo la carpeta de trabajo practica-git-lizandro-martinez en la terminal de PowerShell, luego se inicializo el repositorio con git init y por ultimo se estableció la rama main.
+2. **Registro de Cambios:** Se creó el archivo datos.txt, luego se agregó al área de preparación con git add . y como ultimo paso se guardó en el historial mediante el comando git commit.
+3. **Vinculacion Remota:** Se creo un repositorio publico y vacio en GitHub y se vinculo con el entorno local usando git remote add origin.
+4. **Prueba GitHub a Local:** Se edito el archivo datos.txt directamente en la web de GitHub y luego se descargo el cambio a la computadora usando git pull.
+5. **Prueba Local a GitHub:** Se añadió una nueva línea en datos.txt desde la terminal y ya como ultimo se subió la actualización a GitHub mediante git push.
 
 ---
 
@@ -44,4 +44,4 @@ Comprender y dominar el ciclo de vida del control de versiones creando un reposi
 ---
 
 ## 5. Conclusión Personal
-Esta práctica me sirvió para comprender cómo Git controla las versiones de un proyecto de forma local y cómo GitHub permite respaldarlo y mantenerlo sincronizado en la nube. Entender el funcionamiento del Staging Area, los commits y los comandos push y pull es fundamental para coordinar cambios de código de forma ordenada en cualquier desarrollo de software.
+Nunca habia hecho esto, pero es emocionante conocer este lado de la programacion, esta práctica me sirvió para poder comprender cómo Git puede controlar las versiones de un proyecto de forma local y cómo GitHub te permite respaldarlo y mantenerlo sincronizado en la nube; entender el funcionamiento del Staging Area, los commits y los comandos push y pull, los cuales son fundamentales para coordinar cambios de código de forma ordenada en cualquier desarrollo de software.
