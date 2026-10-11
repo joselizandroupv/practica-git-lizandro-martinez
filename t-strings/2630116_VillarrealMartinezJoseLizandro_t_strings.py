@@ -1,4 +1,3 @@
-# ==============================================================================
 # STUDENT INFORMATION / PORTADA
 # ==============================================================================
 # Student Name: Jose Lizandro Villarreal Martinez
@@ -6,7 +5,6 @@
 # Group: IM 1 - 2
 # ==============================================================================
 
-# ==============================================================================
 # EXECUTIVE SUMMARY / RESUMEN EJECUTIVO
 # ==============================================================================
 # A string in Python is an immutable sequence of characters used to store textual data.
@@ -19,7 +17,6 @@
 # string methods, and test case evaluation with executed Python code.
 # ==============================================================================
 
-# ==============================================================================
 # PRINCIPLES AND BEST PRACTICES / PRINCIPIOS Y BUENAS PRÁCTICAS
 # ==============================================================================
 # 1. Strings are immutable: any transformation produces a new string object.
@@ -47,7 +44,6 @@
 #   1) Normal: "juan carlos tovar" -> Formatted name: Juan Carlos Tovar | Initials: J.C.T.
 #   2) Border: "  a   b  " -> Formatted name: A B | Initials: A.B.
 #   3) Error: "  " or "juan" -> Error: invalid input
-# ==============================================================================
 
 
 def problem_1_name_formatter(full_name_input):
@@ -69,6 +65,8 @@ def problem_1_name_formatter(full_name_input):
 
 
 # ==============================================================================
+
+# ==============================================================================
 # Problem 2: Simple email validator (structure + domain)
 # Description: Validates basic email formatting rules (no spaces, single '@', dot
 #              in domain) and extracts the email domain.
@@ -86,7 +84,6 @@ def problem_1_name_formatter(full_name_input):
 #   1) Normal: "user@example.com" -> Valid email: true, Domain: example.com
 #   2) Border: "a@b.c" -> Valid email: true, Domain: b.c
 #   3) Error: "invalid@email" or "a @b.com" -> Valid email: false
-# ==============================================================================
 
 
 def problem_2_email_validator(email_text_input):
@@ -112,6 +109,8 @@ def problem_2_email_validator(email_text_input):
 
 
 # ==============================================================================
+
+# ==============================================================================
 # Problem 3: Palindrome checker (ignoring spaces and case)
 # Description: Determines whether a given phrase reads the same backward as forward,
 #              ignoring whitespace and case differences.
@@ -126,7 +125,6 @@ def problem_2_email_validator(email_text_input):
 #   1) Normal: "Anita lava la tina" -> Is palindrome: true
 #   2) Border: "A  b   a" -> Is palindrome: true
 #   3) Error: "  " or "hi" -> Error: invalid input
-# ==============================================================================
 
 
 def problem_3_palindrome_checker(phrase_input):
@@ -142,6 +140,9 @@ def problem_3_palindrome_checker(phrase_input):
 
     is_pal = normalized_text == normalized_text[::-1]
     print(f"Is palindrome: {'true' if is_pal else 'false'}")
+
+
+# ==============================================================================
 
 
 # ==============================================================================
@@ -163,7 +164,6 @@ def problem_3_palindrome_checker(phrase_input):
 #   1) Normal: "Python is a powerful programming language" -> Stats printed.
 #   2) Border: "  Hello  " -> Single word stats.
 #   3) Error: "    " -> Error: invalid input
-# ==============================================================================
 
 
 def problem_4_word_stats(sentence_input):
@@ -192,6 +192,8 @@ def problem_4_word_stats(sentence_input):
 
 
 # ==============================================================================
+
+# ==============================================================================
 # Problem 5: Password strength classifier
 # Description: Classifies a password into 'weak', 'medium', or 'strong' based on
 #              length, uppercase, lowercase, numeric, and special character presence.
@@ -205,7 +207,6 @@ def problem_4_word_stats(sentence_input):
 #   1) Normal: "P@ssw0rd2026!" -> Password strength: strong
 #   2) Border: "Pass1234" -> Password strength: medium
 #   3) Error: "" or "12345" -> Password strength: weak
-# ==============================================================================
 
 
 def problem_5_password_classifier(password_input):
@@ -230,6 +231,8 @@ def problem_5_password_classifier(password_input):
 
 
 # ==============================================================================
+
+# ==============================================================================
 # Problem 6: Product label formatter (fixed-width text)
 # Description: Generates a product label formatted as 'Product: <NAME> | Price: $<PRICE>'
 #              ensuring the total string length is exactly 30 characters.
@@ -245,7 +248,6 @@ def problem_5_password_classifier(password_input):
 #   1) Normal: "Laptop", 999.99 -> Label padded to 30 chars.
 #   2) Border: "Super Ultra High End Gaming Laptop", 2500 -> Label truncated to 30 chars.
 #   3) Error: "", -50 -> Error: invalid input
-# ==============================================================================
 
 
 def problem_6_label_formatter(product_name_input, price_value_input):
@@ -275,8 +277,11 @@ def problem_6_label_formatter(product_name_input, price_value_input):
 
 
 # ==============================================================================
+
+# ==============================================================================
 # EXECUTION OF TEST CASES
 # ==============================================================================
+
 if __name__ == "__main__":
     print("--- PROBLEM 1 TESTS ---")
     problem_1_name_formatter("juan carlos tovar")
@@ -312,6 +317,7 @@ if __name__ == "__main__":
 # ==============================================================================
 # CONCLUSIONS / CONCLUSIONES
 # ==============================================================================
+
 # Working with strings is fundamental to almost every software application because
 # text represents the primary interface for user input and data output.
 # Methods such as lower(), strip(), split(), and join() allow developers to standardize
@@ -326,7 +332,7 @@ if __name__ == "__main__":
 # ==============================================================================
 # REFERENCES / REFERENCIAS
 # ==============================================================================
-# References:
+
 # 1) Python Software Foundation. (2026). Text Sequence Type — str. Python Documentation.
 #    https://docs.python.org/3/library/stdtypes.html#text-sequence-type-str
 # 2) Python Software Foundation. (2026). Common String Operations. Python Documentation.
