@@ -1,8 +1,7 @@
 # Investigación sobre Sensores y Actuadores en Sistemas Mecatrónicos
+------
 
----
-
-## 1. Conceptos Básicos
+## 1.- Conceptos Básicos
 
 ### Explicación con mis propias palabras
 
@@ -30,7 +29,7 @@ Un ejemplo muy claro es una **puerta automática de cristal** en un supermercado
 
 ---
 
-## 2. Investigación de Sensores
+## 2.- Investigación de Sensores
 
 A continuación se muestra la clasificación y características principales de los tipos de sensores más comunes en la industria y la mecatrónica:
 
@@ -48,7 +47,7 @@ A continuación se muestra la clasificación y características principales de l
 
 ---
 
-## 3. Clasificación de Sensores
+## 3.- Clasificación de Sensores
 
 Para clasificar correctamente un sensor no basta con saber qué mide, sino analizar **el cómo procesa y entrega su información**:
 
@@ -72,7 +71,7 @@ Para clasificar correctamente un sensor no basta con saber qué mide, sino anali
 
 ---
 
-## 4. Investigación de Actuadores
+## 4.- Investigación de Actuadores
 
 Los actuadores transforman diferentes fuentes de energía en trabajo mecánico útil:
 
@@ -87,7 +86,7 @@ Los actuadores transforman diferentes fuentes de energía en trabajo mecánico �
 
 ---
 
-## 5. Comparación de Actuadores
+## 5.- Comparación de Actuadores
 
 ### A. Motor DC vs. Servomotor
 
@@ -106,7 +105,7 @@ Los actuadores transforman diferentes fuentes de energía en trabajo mecánico �
 
 ---
 
-## 6. Sensores y Actuadores en un Sistema Real
+## 6.- Sensores y Actuadores en un Sistema Real
 
 ### Sistema Seleccionado: Sistema de Riego Automático Inteligente
 
@@ -132,7 +131,7 @@ Este sistema se encarga de monitorear la tierra de un cultivo y regar las planta
  [ Sensor Clima DHT11 ] ------/                                                      ----> [ Electroválvula (Solenoide) ]
 ```
 
-## 7. Selección de Componentes para Situaciones Prácticas
+## 7.- Selección de Componentes para Situaciones Prácticas
 
 1. **Detectar si una persona se encuentra frente a una puerta automática:**
 
@@ -176,7 +175,7 @@ Este sistema se encarga de monitorear la tierra de un cultivo y regar las planta
 
 ---
 
-## Reflexión Final
+## - Reflexión Final
 
 El medir una variable física implica el recopilar información del estado actual del entorno mediante un sensor sin alterarlo, mientras que realizar una acción física significa usar un actuador para modificar activamente las condiciones de ese entorno. 
 Esta diferencia refleja la esencia de la mecatrónica: la interacción constante entre la percepción y la respuesta.
@@ -184,11 +183,11 @@ Esta diferencia refleja la esencia de la mecatrónica: la interacción constante
 Un sistema mecatrónico necesita obligatoriamente tanto de sensores como de actuadores porque forman un ciclo cerrado de control; los sensores funcionan como los sentidos que permiten interpretar el mundo, y los actuadores son las herramientas que permiten intervenir en él. 
 Si un sistema solo tuviera actuadores, trabajaría "a ciegas" sin saber si logró su objetivo; y si solo tuviera sensores, sabría exactamente qué ocurre pero sería totalmente incapaz de reaccionar.
 
-Entre todos los dispositivos analizados, el motor paso a paso me pareció el más interesante. La capacidad de dividir una rotación completa en pasos microscópicos y exactos mediante pulsos electromagnéticos "sin necesidad de un sensor de posición de retorno" demuestra un diseño de ingeniería sumamente ingenioso que hace posible tecnologías cotidianas clave como las impresoras 3D.
+Entre todos los dispositivos analizados, el motor paso a paso me pareció el más interesante. La capacidad de dividir una rotación completa en pasos microscópicos y exactos mediante pulsos electromagnéticos "sin necesidad de un sensor de posición de retorno" demuestra un diseño de ingeniería sumamente ingenioso que hace posible tecnologías cotidianas clave como las impresoras 3D. 
 
 ---
 
-## Referencias
+## - Referencias
 
 1. Ogata, K. (2010). *Ingeniería de Control Moderna* (5ta ed.). Pearson Educación.
 2. Bolton, W. (2013). *Mecatrónica: Sistemas de control electrónico en ingeniería mecánica y eléctrica* (5ta ed.). Alfaomega.

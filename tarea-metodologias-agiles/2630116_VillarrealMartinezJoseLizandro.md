@@ -1,10 +1,5 @@
 # Investigación sobre Metodologías Ágiles: Scrum, Kanban y Design Thinking
-
-**Nombre del estudiante:** Jose Lizandro Villarreal Martinez  
-**Matrícula:** 2630116  
-**Materia:** Metodologías de Programación  
-
----
+------
 
 ## 1.- Introducción y Marco General Ágil
 
@@ -54,7 +49,7 @@ Además, el manifiesto cuenta con 12 principios clave, entre los cuales destacan
 
 ---
 
-## 2. Marco de Trabajo Scrum
+## 2.- Marco de Trabajo Scrum
 
 ### 2.1 Conceptos Base
 Scrum es un marco de trabajo ligero que ayuda a personas, equipos y organizaciones a generar valor a través de soluciones adaptativas para problemas complejos. Su propósito principal no es solo "construir rápido", sino aprender continuamente mediante ciclos de retroalimentación cortos llamados **Sprints**.
@@ -112,7 +107,7 @@ Scrum es un marco de trabajo ligero que ayuda a personas, equipos y organizacion
 
 ---
 
-## 3. Marco de Trabajo Kanban
+## 3.- Marco de Trabajo Kanban
 
 ### 3.1 Fundamentos de Kanban
 
@@ -165,7 +160,7 @@ A continuación se presenta un diseño de tablero Kanban para un equipo de desar
 
 ---
 
-## 4. Design Thinking y su Integración en el Desarrollo de Software
+## 4.- Design Thinking y su Integración en el Desarrollo de Software
 
 ### 4.1 Visión General
 Design Thinking es una metodología enfocada en entender las necesidades reales de los usuarios antes de ponerse a programar, evitando así construir productos que nadie necesita.
@@ -216,11 +211,11 @@ Los estudiantes pierden tiempo buscando compañeros con habilidades específicas
 
 Design Thinking se usa en la fase de descubrimiento inicial para definir el producto correcto. Una vez definidas las funciones, esas ideas se convierten en Historias de Usuario que alimentan el Product Backlog de Scrum o el Tablero Kanban para ser programadas.
 
-## 5. Conclusiones
+## 5.- Conclusiones
 
 Las metodologías ágiles no son solo reglas rígidas, sino una mentalidad de trabajo basada en adaptarse rápido y colaborar. En proyectos escolares o profesionales, combinar Design Thinking al inicio con Scrum o Kanban durante el desarrollo evita perder tiempo programando cosas inútiles y ayuda a entregar software funcional de forma constante.
 
-## 6. Referencias
+## 6.- Referencias
 
 1. Beck, K., et al. (2001). *Manifesto for Agile Software Development*. https://agilemanifesto.org/
 2. Schwaber, K., & Sutherland, J. (2020). *La Guía de Scrum: Las Reglas del Juego*. Scrum.org.
