@@ -31,8 +31,8 @@ print("\nTRABAJO CON LA CONDICIONAL DE DESIGUALDAD")
 print(truck != "audi")  # True
 print(truck != "ford")  # False
 
-# COMPARACIONES NUMERICAS
 print("\nTRABAJO CON LA COMPARACIONES NUMERICAS")
+# COMPARACIONES NUMERICAS
 age = 34
 print(age == 34)  # True
 
