@@ -47,3 +47,28 @@ print(age < 21)  # True
 print(age <= 21)  # True
 print(age > 21)  # False
 print(age >= 21)  # False
+
+print("\n Multiple Conditions")
+# MULTIPLE CONDITIONS
+age_0 = 22
+age_1 = 18
+
+print("\n OPERACION AND")
+print(age_0 >= 21 and age_1 >= 21)  # False
+print(age_0 >= 21 and age_1 >= 18)  # True
+
+print("\n OPERACION OR")
+print(age_0 >= 21 or age_1 >= 21)  # True
+print(age_0 >= 23 or age_1 >= 21)  # False
+
+# ¿Como saber si un elemento esta en una lista
+food = ["chilaquiles", "flautas", "gorditas", "tamales"]
+print("\n ¿nopales esta en la lista?")
+print("nopales" in food)
+print("\n ¿gorditas esta en la lista?")
+print("gorditas" in food)
+
+# ¿Como saber si un elemento NO esta en una lista
+banned_user = ["andrew", "carolina", "david"]
+user = "marie"
+print(user not in banned_user)  # True
