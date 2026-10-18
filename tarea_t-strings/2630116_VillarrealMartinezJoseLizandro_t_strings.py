@@ -331,26 +331,24 @@ p6_test_cases = [
 for product_name_input, price_value_input in p6_test_cases:
     cleaned_name = str(product_name_input).strip()
 
-    if not cleaned_name:
+    # Validate non-empty name, valid numeric type, and positive price value
+    if (
+        not cleaned_name
+        or not isinstance(price_value_input, (int, float))
+        or price_value_input <= 0
+    ):
         print("Error: invalid input")
     else:
-        try:
-            price_num = float(price_value_input)
-            if price_num <= 0:
-                print("Error: invalid input")
-            else:
-                base_label = f"Product: {cleaned_name} | Price: ${price_num:.2f}"
+        price_num = float(price_value_input)
+        base_label = f"Product: {cleaned_name} | Price: ${price_num:.2f}"
 
-                if len(base_label) > 30:
-                    final_label = base_label[:30]
-                else:
-                    missing_spaces = 30 - len(base_label)
-                    final_label = base_label + (" " * missing_spaces)
+        if len(base_label) > 30:
+            final_label = base_label[:30]
+        else:
+            missing_spaces = 30 - len(base_label)
+            final_label = base_label + (" " * missing_spaces)
 
-                print(f'Label: "{final_label}"')
-        except ValueError:
-            print("Error: invalid input")
-
+        print(f'Label: "{final_label}"')
 
 # CONCLUSIONS / CONCLUSIONES
 """
